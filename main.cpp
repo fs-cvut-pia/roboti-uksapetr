@@ -69,7 +69,7 @@ int main() {
 
     std::vector<Problem> ukoly;
     
-    if (!nacti_bludiste("bludiste.dat",ukoly)) {
+    if (!nacti_bludiste("../bludiste.dat",ukoly)) {
         std::cout << "Nepovedlo se nacist bludiste.\n";
         return 1;
     }
